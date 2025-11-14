@@ -6,7 +6,7 @@ export const ProductsPage = () => {
   const [loading, setLoading] = useState(true);
 
   // 🔗 URL de tu backend en Render
-  const API_URL = "https://novedadbolso.onrender.com/api/productos";
+  const API_URL = "https://backend.onrender.com/api/productos";
 
   // 🚀 Obtener los productos desde tu backend (que a su vez trae datos desde Shopify)
   useEffect(() => {
